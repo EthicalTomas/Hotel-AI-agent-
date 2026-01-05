@@ -48,6 +48,7 @@ nano .env  # or vim, code, etc.
 ```env
 # OpenAI (Required)
 OPENAI_API_KEY=sk-your-actual-key-here
+OPENAI_MODEL=gpt-4  # or gpt-3.5-turbo for lower costs
 
 # Twilio WhatsApp (for WhatsApp features)
 TWILIO_ACCOUNT_SID=your_account_sid
