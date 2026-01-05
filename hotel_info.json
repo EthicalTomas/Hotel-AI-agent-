@@ -1,0 +1,135 @@
+{
+  "name": "Grand Hotel Paradise",
+  "location": "123 Beach Boulevard, Miami, FL 33139",
+  "phone": "+1-305-555-0100",
+  "email": "info@grandhotelparadise.com",
+  "website": "www.grandhotelparadise.com",
+  "description": "A luxury beachfront hotel offering world-class amenities and exceptional service.",
+  
+  "check_in_time": "3:00 PM",
+  "check_out_time": "11:00 AM",
+  
+  "rooms": [
+    {
+      "type": "Standard Room",
+      "price_per_night": 150,
+      "capacity": 2,
+      "size_sqm": 25,
+      "amenities": ["King bed", "Private bathroom", "WiFi", "TV", "Air conditioning", "Mini fridge"],
+      "description": "Comfortable room with modern amenities and city view."
+    },
+    {
+      "type": "Deluxe Ocean View",
+      "price_per_night": 250,
+      "capacity": 2,
+      "size_sqm": 35,
+      "amenities": ["King bed", "Ocean view balcony", "Private bathroom", "WiFi", "Smart TV", "Air conditioning", "Mini bar", "Coffee maker"],
+      "description": "Spacious room with stunning ocean views and premium amenities."
+    },
+    {
+      "type": "Family Suite",
+      "price_per_night": 400,
+      "capacity": 4,
+      "size_sqm": 60,
+      "amenities": ["2 Queen beds", "Living area", "Ocean view balcony", "2 Bathrooms", "WiFi", "Smart TV", "Air conditioning", "Mini bar", "Coffee maker", "Microwave"],
+      "description": "Perfect for families with separate living space and multiple beds."
+    },
+    {
+      "type": "Presidential Suite",
+      "price_per_night": 800,
+      "capacity": 4,
+      "size_sqm": 120,
+      "amenities": ["King bed in master", "Queen bed in second bedroom", "Full kitchen", "Dining area", "Living room", "2 Balconies with ocean view", "2.5 Bathrooms", "WiFi", "Multiple Smart TVs", "Air conditioning", "Full bar", "Jacuzzi", "Butler service"],
+      "description": "Ultimate luxury suite with panoramic ocean views and exclusive services."
+    }
+  ],
+  
+  "facilities": [
+    "Outdoor swimming pool",
+    "Private beach access",
+    "24-hour fitness center",
+    "Full-service spa",
+    "On-site restaurant and bar",
+    "Room service (24/7)",
+    "Concierge service",
+    "Valet parking",
+    "Business center",
+    "Meeting rooms",
+    "Free WiFi throughout property",
+    "Laundry service"
+  ],
+  
+  "dining": [
+    {
+      "name": "Ocean Breeze Restaurant",
+      "type": "Fine Dining",
+      "cuisine": "International",
+      "hours": "7:00 AM - 11:00 PM",
+      "description": "Elegant restaurant featuring fresh seafood and international cuisine."
+    },
+    {
+      "name": "Sunset Bar",
+      "type": "Bar & Lounge",
+      "cuisine": "Cocktails & Light Bites",
+      "hours": "4:00 PM - 1:00 AM",
+      "description": "Beachfront bar with signature cocktails and live music on weekends."
+    }
+  ],
+  
+  "policies": {
+    "cancellation": "Free cancellation up to 48 hours before check-in. Late cancellations or no-shows will be charged one night's stay.",
+    "pets": "Pets are allowed with prior notification. Additional fee of $50 per night per pet applies.",
+    "smoking": "This is a non-smoking property. Designated smoking areas are available outdoors.",
+    "children": "Children of all ages are welcome. Kids under 12 stay free when using existing bedding.",
+    "payment": "We accept all major credit cards, debit cards, and cash. Full payment or valid credit card required at check-in.",
+    "extra_bed": "Extra beds available upon request for $35 per night."
+  },
+  
+  "special_services": [
+    "Airport shuttle (additional fee)",
+    "Wedding and event planning",
+    "Tour desk and excursion bookings",
+    "Babysitting services (upon request)",
+    "Car rental assistance",
+    "Spa packages and treatments"
+  ],
+  
+  "nearby_attractions": [
+    {
+      "name": "South Beach",
+      "distance": "0.5 miles",
+      "description": "Famous beach with white sand and vibrant atmosphere"
+    },
+    {
+      "name": "Art Deco District",
+      "distance": "1 mile",
+      "description": "Historic district with beautiful architecture"
+    },
+    {
+      "name": "Miami Airport",
+      "distance": "15 miles",
+      "description": "Miami International Airport"
+    }
+  ],
+  
+  "contact_hours": "Our front desk is available 24/7 for your convenience.",
+  
+  "faq": [
+    {
+      "question": "Do you offer airport transportation?",
+      "answer": "Yes, we offer airport shuttle service for an additional fee of $35 per person one-way. Please let us know your flight details in advance."
+    },
+    {
+      "question": "Is breakfast included?",
+      "answer": "Breakfast is not included in the standard room rate but can be added for $25 per person per day. Our restaurant serves breakfast from 7:00 AM to 11:00 AM."
+    },
+    {
+      "question": "Do you have parking?",
+      "answer": "Yes, we offer valet parking for $35 per day or self-parking for $25 per day."
+    },
+    {
+      "question": "Is WiFi free?",
+      "answer": "Yes, complimentary high-speed WiFi is available throughout the property for all guests."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# AI/LLM
+openai==1.6.1
+
+# WhatsApp Business API
+twilio==8.11.0
+
+# Email
+secure-smtplib==0.1.1
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# HTTP Requests
+requests==2.31.0
+
+# Utilities
+phonenumbers==8.13.27
+python-dateutil==2.8.2
