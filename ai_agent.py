@@ -27,6 +27,8 @@ class HotelAIAgent:
         self.client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
         self.hotel_info = self._load_hotel_info(hotel_info_file)
         self.system_prompt = self._create_system_prompt()
+        # Allow model selection via environment variable (default: gpt-4)
+        self.model = os.getenv('OPENAI_MODEL', 'gpt-4')
         
     def _load_hotel_info(self, file_path: str) -> Dict:
         """Load hotel information from JSON file"""
@@ -96,7 +98,7 @@ Remember: You represent the hotel's brand, so always maintain professionalism an
             
             # Generate response using OpenAI
             response = self.client.chat.completions.create(
-                model="gpt-4",
+                model=self.model,
                 messages=messages,
                 temperature=0.7,
                 max_tokens=500

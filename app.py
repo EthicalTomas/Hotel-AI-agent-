@@ -46,7 +46,10 @@ except Exception as e:
     raise
 
 
-# Store conversation history (in production, use a database)
+# Store conversation history
+# NOTE: This is in-memory storage and will not persist across restarts
+# For production, use Redis, PostgreSQL, or another persistent store
+# For multiple server instances, a shared cache/database is required
 conversation_history = {}
 
 

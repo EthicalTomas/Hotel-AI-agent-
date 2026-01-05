@@ -10,6 +10,7 @@ import logging
 import imaplib
 import smtplib
 import email
+import email.utils
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import decode_header

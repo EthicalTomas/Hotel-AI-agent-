@@ -283,9 +283,9 @@ After=network.target
 
 [Service]
 User=www-data
-WorkingDirectory=/path/to/Hotel-AI-agent-
-Environment="PATH=/path/to/venv/bin"
-ExecStart=/path/to/venv/bin/python app.py
+WorkingDirectory=/home/ubuntu/Hotel-AI-agent
+Environment="PATH=/home/ubuntu/Hotel-AI-agent/venv/bin"
+ExecStart=/home/ubuntu/Hotel-AI-agent/venv/bin/python app.py
 Restart=always
 
 [Install]

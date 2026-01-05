@@ -88,12 +88,18 @@ class WhatsAppHandler:
             Dictionary containing parsed message data or None if invalid
         """
         try:
+            # Safely convert NumMedia to int
+            try:
+                num_media = int(request_form.get('NumMedia', 0))
+            except (ValueError, TypeError):
+                num_media = 0
+            
             message_data = {
                 'from': request_form.get('From', ''),
                 'to': request_form.get('To', ''),
                 'body': request_form.get('Body', ''),
                 'message_sid': request_form.get('MessageSid', ''),
-                'num_media': int(request_form.get('NumMedia', 0)),
+                'num_media': num_media,
                 'profile_name': request_form.get('ProfileName', 'Customer')
             }
             
